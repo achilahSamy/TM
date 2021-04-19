@@ -1,0 +1,131 @@
+<%- include('_layouts/header') -%>
+
+<div class="site-section" data-aos="fade">
+	<div class="container-fluid">
+
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+				<div class="title mb-5" data-aos="fade-down">
+					<h1 class="label1" align="center">Reach out to us ...</h1>
+					<div class="line-shape"></div>
+					<br>
+				</div>
+
+				<p class="mb-5" data-aos="fade-right">
+					There are so many ways you can get in touch with us. <br><br>
+					We encourage all our <class="fa fa-quote-left" aria-hidden="true">
+					<em>'Day-Ones'</em> <class="fa fa-quote-right" aria-hidden="true"> to <em>
+					<a href="#"> <b>Sign Up &amp; Subscribe </b></a></em> for all our Newsletters
+					and Magazine Collection. <br><br>
+					If this is not your preffered mode to stay in touch with us, feel free
+					to contact us by calling any of our phone numbers (below).	You could also write to
+					us by filling the form (below), and we shall most definitely get back to you.<br><br>
+					... also ... Be sure to Friend, Follow, Like, or Retweet us, on our social media platforms.
+					<class="fa fa-laugh" aria-hidden="true"><br><br>
+				</p>
+
+				<div class="row" data-aos="zoom-in">
+					<div class="col-lg-8 mb-5">
+						<form class="contact-form" method="POST" action="send">
+
+									<%- include ('./partials/messages') -%>
+
+
+							<div class="row form-group">
+								<div class="col-md-6 mb-3 mb-md-0">
+									<label class="text-white" for="fname">First Name</label>
+									<input
+										name="fname"
+										type="fname"
+										id="fname"
+										class="form-control"
+										value="<% typeof fname !='undefined' ? fname : '' %>"
+									/>
+								</div>
+								<div class="col-md-6 mb-3 mb-md-0">
+									<label class="text-white" for="lname">Last Name</label>
+									<input
+										name="lname"
+										type="lname"
+										id="lname"
+										class="form-control"
+										value="<% typeof lname !='undefined' ? lname : '' %>"
+									/>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-6">
+									<label class="text-white" for="email">Email</label>
+									<input
+										name="email"
+										type="email"
+										id="email"
+										class="form-control"
+										value="<% typeof email !='undefined' ? email : '' %>"
+									/>
+								</div>
+								<div class="col-md-6">
+									<label class="text-white" for="tel">Phone No.</label>
+									<input
+										name="tel"
+										type="tel"
+										id="tel"
+										class="form-control"
+										placeholder="+256 *** **** **"
+										value="<% typeof tel !='undefined' ? tel : '' %>"
+									/>
+								</div>
+							</div>
+
+							<div class="row form-group mb-5">
+								<div class="col-md-12">
+									<label class="text-white" for="message">Message</label>
+									<textarea
+										name="message"
+										type="message"
+										id="message"
+										cols="30" rows="7"
+										class="form-control"
+										placeholder="Write your notes or questions here..."
+										value="<% typeof message !='undefined' ? message : '' %>"
+									></textarea>
+
+
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<input type="submit" value="Send Message" class="btn btn-primary btn-block btn-md text-white">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-4 ml-auto">
+						<div class="contact-card mb-3">
+							<p class="mb-0 font-weight-bold"><subhead> Address </subhead></p>
+							<p class="mb-4">
+								<detail>
+								4 Balintuma Rd., Kiwatule (near Northern Bypass), Kampala Region, Uganda
+								</detail>
+							</p>
+
+							<p class="mb-0 font-weight-bold"><subhead> Phone </subhead></p>
+							<p class="mb-4"><detail>+256 777 357 56 </detail></p>
+
+							<p class="mb-0 font-weight-bold"><subhead>Email Address</subhead></p>
+							<p class="mb-0"><detail>enquiry@twenymoments.com</detail></p>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<%- include('_layouts/footer') -%>
