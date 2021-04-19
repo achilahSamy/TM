@@ -1,0 +1,52 @@
+				<div class="row justify-content-center">
+					<div class="col-md-12 text-center py-5">
+					<p>
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | 
+						<a href="https://twenymoments.com" target="_blank" >Tweny Moments</a>
+					</p>
+					</div>
+				</div>
+			</main>
+
+		</div> <!-- .site- wrap -->
+		
+		<script src="js/jquery.min.js"></script>
+
+		<script src="assets/assets/js/jquery-3.3.1.min.js"></script>
+		<script src="js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/bootstrap-datepicker.min.js"></script>
+		<script src="js/aos.js"></script>
+		
+		
+		<script src="js/jquery.fancybox.min.js"></script>
+
+		<script src="js/main.js"></script>	
+		
+			<script src="js/plugins.js"></script>
+
+	 
+		<script src="js/slick.min.js"></script>
+		
+			<script src="js/active.js"></script>
+
+		
+		<script type="text/javascript">
+			$(document).ready(function () {
+				var url = window.location;
+				$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+				$('ul.nav a').filter(function() {
+					 return this.href == url;
+				}).parent().addClass('active');
+			});
+		</script> 	 
+		
+	
+	</body>
+</html>

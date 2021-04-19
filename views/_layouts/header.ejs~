@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Tweny Moments &mdash; <%= title %></title>
+
+		<link rel="icon" href="">
+		<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+
+		<link rel="stylesheet" href="node_modules/@icon/themify-icons/themify-icons.css">
+	
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	
+	<body>  
+		<div class="site-wrap">
+
+			<div class="site-mobile-menu">
+				<div class="site-mobile-menu-header">
+				  <div class="site-mobile-menu-close mt-3">
+					<span class="icon-close2 js-menu-toggle"></span>
+				  </div>
+				</div>
+				<div class="site-mobile-menu-body"></div>
+			</div>
+
+			<header class="header-bar d-flex d-lg-block align-items-center" data-aos="fade-left">
+				<div class="site-logo">
+				  <a href="/"><img src="images/logo/tm3.png" width="192" height="80"  alt=""></a>	
+				</div>	
+			
+				<div class="d-inline-block d-xl-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;">
+					<a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a>
+				</div>
+
+				<div class="main-menu">
+					<ul class="nav navbar-nav js-clone-nav ">
+						<li><a href="/art">Art</a></li>
+						<li><a href="/beauty">Beauty</a></li>
+						<li><a href="/corporate">Corporate</a></li>
+						<li><a href="/lifestyle">Lifestyle</a></li>
+						<li><a href="/men">Men</a></li>
+						<li><a href="/social">Social</a></li>
+						<li><a href="/sports">Sports</a></li>
+						<li><a href="/women">Women</a></li>			
+						<br>
+						<li><a href="/twenymoments">Tweny Moments</a></li>
+						<li><a href="partnerwithus">Partnerships</a></li>
+						<li><a href="contactus">Contact Us</a></li>			
+					</ul>
+					<ul class="social js-clone-nav">
+						<li><a href="#"><span class="icon-facebook"></span></a></li>
+						<li><a href="#"><span class="icon-twitter"></span></a></li>
+						<li><a href="#"><span class="icon-instagram"></span></a></li>
+					</ul>
+				</div>
+			</header>
+	  
+			<main class="main-content">

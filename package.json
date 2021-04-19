@@ -1,0 +1,30 @@
+{
+  "name": "twenymoments",
+  "version": "1.0.0",
+  "description": "TPS & MIS",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start app.js",
+    "dev": "pm2 start app.js"
+  },
+  "author": "samyA",
+  "license": "ISC",
+  "dependencies": {
+    "@icon/themify-icons": "^1.0.1-alpha.3",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "express-subdomain": "^1.0.5",
+    "express-subdomain-router": "^1.0.3",
+    "mongoose": "^5.9.24",
+    "nodemailer": "^6.4.16",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

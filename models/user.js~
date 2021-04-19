@@ -1,0 +1,15 @@
+var mongoose = require('mongoose');
+
+var UserSchema = mongoose.Schema({
+	name: {type:String, required: true},
+	email: {type:String, required: true},
+	role: {
+		type:String,
+		default:"client",
+		tor:["client","staff","admin"]
+	},
+	username: {type:String, required: true},
+	password: {type:String, required: true}	
+}, {timestamp: true});
+
+var User = module.exports = mongoose.model('User', UserSchema);

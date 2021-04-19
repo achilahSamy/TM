@@ -1,0 +1,13 @@
+const express = require('express');
+const router = express.Router();
+
+router.get('/api/members', (req, res) => {
+});
+
+router.get('/api/members/:id', (req, res) => {
+});
+
+
+
+
+module.exports = router;
